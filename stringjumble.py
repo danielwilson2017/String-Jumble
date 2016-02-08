@@ -25,5 +25,10 @@ ydnah dnif yam uoy taht skcirt ro seuqinhcet wef a era erehT
 handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
-x = str(input("Please enter a string of text (the bigger the better): "))
+string = str(input("Please enter a string of text (the bigger the better): "))
+b = (int(len(x)))
 print("You entered '" + x + "'. Now jumble it:") 
+
+for y in range(1, b+1) :
+    print(string[-y],end="")
+print()
