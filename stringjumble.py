@@ -28,16 +28,21 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 string = str(input("Please enter a string of text (the bigger the better): "))
 b = (int(len(string)))
 print("You entered '" + string + "'. Now jumble it:") 
-li = list(string)
+l = list(string)
 
 
 for y in range(1, b+1) :
     print(string[-y],end="")
 print()
 
-for z in range(1, b+1) :
-    print(li[-z],end="")
-print()
+while z<len(l) :
+    s=[""]
+    a=""
+    a=a+l[z]
+    if w[z]==" " :
+        s.insert(0,a)
+    z=z+1
+b.remove("")
 
 
 
