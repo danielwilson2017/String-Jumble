@@ -41,10 +41,10 @@ while z<len(l) :
     a=""
     a=a+l[z]
     if l[z]==" " :
-        s.insert(0,a)
+        s.insert(-1,a)
     z=z+1
-b.remove(" ")
-print(b)
+s.remove(" ")
+print(s)
 
 
 
