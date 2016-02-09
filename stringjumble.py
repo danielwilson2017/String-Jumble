@@ -35,6 +35,10 @@ for y in range(1, b+1) :
     print(string[-y],end="")
 print()
 
+
+
+
+"
 z=0
 while z<len(l) :
     s=[" "]
@@ -45,7 +49,7 @@ while z<len(l) :
     z=z+1
 s.remove(" ")
 print(s)
-
+"
 
 
 
