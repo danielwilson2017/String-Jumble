@@ -37,13 +37,13 @@ print()
 
 z=0
 while z<len(l) :
-    s=[""]
+    s=[" "]
     a=""
     a=a+l[z]
     if l[z]==" " :
         s.insert(0,a)
     z=z+1
-b.remove("")
+b.remove(" ")
 print(b)
 
 
