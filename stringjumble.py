@@ -35,15 +35,16 @@ for y in range(1, b+1) :
     print(string[-y],end="")
 print()
 
+z=0
 while z<len(l) :
     s=[""]
     a=""
     a=a+l[z]
-    if w[z]==" " :
+    if l[z]==" " :
         s.insert(0,a)
     z=z+1
 b.remove("")
-
+print(b)
 
 
 
