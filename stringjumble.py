@@ -26,9 +26,20 @@ handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 string = str(input("Please enter a string of text (the bigger the better): "))
-b = (int(len(x)))
-print("You entered '" + x + "'. Now jumble it:") 
+b = (int(len(string)))
+print("You entered '" + string + "'. Now jumble it:") 
+li = list(string)
+
 
 for y in range(1, b+1) :
     print(string[-y],end="")
 print()
+
+for z in range(1, b+1) :
+    print(li[-z],end="")
+print()
+
+
+
+
+
