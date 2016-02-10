@@ -38,8 +38,12 @@ print()
 z = list(reversed(sost))
 for word in z:
     print(word, end=" ")
-    
+print()
 
+q = list(reversed(sost))
+for j in q:
+    print(q[-j], end=" ")
+print()
 
 
 """
