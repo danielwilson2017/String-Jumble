@@ -40,10 +40,10 @@ for word in z:
     print(word, end=" ")
 print()
 
-q = list(reversed(sost))
-for j in q:
-    print(q[-j], end=" ")
-print()
+for words in sost:
+    g = 0
+    while g>len(words):
+        print(str(words[len(words)-g-1])), end=" "
 
 
 """
