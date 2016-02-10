@@ -35,7 +35,11 @@ for y in range(1, b+1) :
     print(string[-y],end="")
 print()
 
-print(sost)
+z = list(reversed(sost))
+for word in z:
+    print(word, end=" ")
+    
+
 
 
 """
