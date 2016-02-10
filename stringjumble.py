@@ -29,16 +29,16 @@ string = str(input("Please enter a string of text (the bigger the better): "))
 b = (int(len(string)))
 print("You entered '" + string + "'. Now jumble it:") 
 l = list(string)
-
+sost = string.split(' ')
 
 for y in range(1, b+1) :
     print(string[-y],end="")
 print()
 
+print(sost)
 
 
-
-"
+"""
 z=0
 while z<len(l) :
     s=[" "]
@@ -49,7 +49,7 @@ while z<len(l) :
     z=z+1
 s.remove(" ")
 print(s)
-"
+"""
 
 
 
