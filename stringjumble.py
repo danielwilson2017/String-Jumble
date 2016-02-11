@@ -46,27 +46,4 @@ for words in sost:
         r = "".join(str(words[len(words)-g-1]).split())
         print("{0}".format(r), end="")
         g=g+1
-print()
-
-"""
-"X".join(string[::-1].split())
-
-
-for words in string:
-    g=0
-    while g < len(words) :
-        r = (str(words[len(words)-g-1]))
-        print("{0 : <3}".format(r), end="")
-        g=g+1
-
-z=0
-while z<len(l) :
-    s=[" "]
-    a=""
-    a=a+l[z]
-    if l[z]==" " :
-        s.insert(-1,a)
-    z=z+1
-s.remove(" ")
-print(s)
-"""
+print("", end=" ")
