@@ -35,12 +35,13 @@ for y in range(1, b+1) :
     print(string[-y],end="")
 print()
 
+print("")
 for words in sost:
     g=0
     while g < len(words) :
         r = (str(words[len(words)-g-1]))
         print("{0 : <3} ".format(r), end=" ")
-        
+        g=g+1
 
 
 
