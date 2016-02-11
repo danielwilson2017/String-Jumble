@@ -31,14 +31,15 @@ print("You entered '" + string + "'. Now jumble it:")
 l = list(string)
 sost = string.split(' ')
 
+print()
 for y in range(1, b+1) :
     print(string[-y],end="")
 print()
 print()
 
 f = list(reversed(sost))
-for word in l :
-    print(word, end="")
+for word in f :
+    print(word, end=" ")
 print("")
 print()
 
