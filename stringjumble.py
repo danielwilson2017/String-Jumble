@@ -44,9 +44,9 @@ for words in sost:
     g=0
     while g < len(words) :
         r = "".join(str(words[len(words)-g-1]).split())
-        print("{0 : <3}".format(r), end="")
+        print("{0}".format(r), end="")
         g=g+1
-print(" ")
+print()
 
 """
 "X".join(string[::-1].split())
