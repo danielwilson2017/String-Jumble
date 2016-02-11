@@ -46,4 +46,4 @@ for words in sost:
         r = "".join(str(words[len(words)-g-1]).split())
         print("{0}".format(r), end="")
         g=g+1
-print("", end=" ")
+print(" ", end=" ")
