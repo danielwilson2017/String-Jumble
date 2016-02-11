@@ -44,9 +44,17 @@ for words in sost:
     g=0
     while g < len(words) :
         r = (str(words[len(words)-g-1]))
-        print("{0 : <3} ".format(r), end=" ")
+        print("{0 : <3} ".format(r), end="")
         g=g+1
+print("")
 
+
+for words in string:
+    g=0
+    while g < len(words) :
+        r = (str(words[len(words)-g-1]))
+        print("{0 : <3} ".format(r), end="")
+        g=g+1
 
 
 
