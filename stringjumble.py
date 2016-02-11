@@ -41,7 +41,7 @@ print(sost)
 for words in sost:
     g=0
     while g < len words :
-        r = (str(words[len(words)-g-1))
+        r = (str(words[len(words)-g-1]))
         print("{0 : <3} ".format(r), end=" ")
         
 
