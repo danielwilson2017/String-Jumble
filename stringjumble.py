@@ -48,7 +48,7 @@ for words in sost:
         g=g+1
 print(" ")
 
-
+"X".join(string[::-1].split())
 
 """
 for words in string:
