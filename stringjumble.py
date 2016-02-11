@@ -43,14 +43,15 @@ print("")
 for words in sost:
     g=0
     while g < len(words) :
-        r = (str(words[len(words)-g-1]))
+        r = " ".join(str(words[len(words)-g-1]).split())
         print("{0 : <3} ".format(r), end="")
         g=g+1
 print(" ")
 
+"""
 "X".join(string[::-1].split())
 
-"""
+
 for words in string:
     g=0
     while g < len(words) :
