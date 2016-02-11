@@ -34,11 +34,13 @@ sost = string.split(' ')
 for y in range(1, b+1) :
     print(string[-y],end="")
 print()
+print()
 
 f = list(reversed(sost))
 for word in l :
-    print(word[::-1], end="")
+    print(word, end="")
 print("")
+print()
 
 for words in sost:
     g=0
