@@ -36,7 +36,7 @@ for y in range(1, b+1) :
 print()
 
 word = list(reversed(sost))
-for word in f :
+for word in l :
     print(word, end=" ")
 print("")
 
