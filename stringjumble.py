@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Daniel Wilson
-Credit: 
+Credit: Payton Sterns
 
 Assignment:
 
