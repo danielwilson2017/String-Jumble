@@ -27,7 +27,7 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 string = str(input("Please enter a string of text (the bigger the better): "))
 b = (int(len(string)))
-print('"You entered "'+ string + '". Now jumble it:') 
+print('You entered "'+ string + '". Now jumble it:') 
 l = list(string)
 sost = string.split(' ')
 
